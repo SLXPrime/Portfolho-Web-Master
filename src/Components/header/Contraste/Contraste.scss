@@ -1,0 +1,13 @@
+.ContrastButton{
+    position: absolute;
+    left: 90%;
+    border: none;
+    transition: all 0.5s;
+    @media screen and (max-width:425px) {
+        font-size: 16px;
+    }
+}
+.DarkCButton{
+    background-color: #1a1d22;
+    color: white;
+}

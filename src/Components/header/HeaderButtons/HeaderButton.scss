@@ -1,0 +1,19 @@
+.HeaderButton{
+    button{
+        border: none;
+        transition: all 0.5s;
+        i{
+            background: -webkit-linear-gradient(#9c47fc, #356ad2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            transition: all 0.5s;
+            &:hover{
+                transform: scale(130%);
+                
+            }
+            @media screen and (max-width:425px) {
+                font-size: 55px;
+            }
+        }
+    }
+}

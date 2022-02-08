@@ -1,0 +1,24 @@
+.l-Header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(145, 145, 145);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 999;
+    background-color: #f0f2f5;
+    transition: 0.5s;
+}
+.DarkHeader{
+    background-color:rgb(26, 29, 34);
+    .HeaderButton{
+        a{
+            button{
+                background-color:rgb(26, 29, 34);
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.SocialMobile{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 65px;
+    background: white;
+    border-radius: 25px 25px 0px 0px;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.5s;
+    display: none;
+    @media screen and (max-width:425px) {
+        display: flex;
+    }
+    .SocialCompMobile{
+        a{
+            text-decoration: none;
+            i{
+                color: black;
+                font-size: 25px;
+            }
+        }
+    }
+}
+.DarkSocialM{
+    background-color:#53555a;
+    .SocialCompMobile{
+        a{
+            i{
+                color: white;
+            }
+        }
+    }
+}

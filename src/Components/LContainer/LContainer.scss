@@ -1,0 +1,17 @@
+.LContainer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+}
+.Main{
+    grid-area: Main;
+}
+.Left{
+    grid-area: Left;
+}
+.Right{
+    grid-area: Right;
+}
